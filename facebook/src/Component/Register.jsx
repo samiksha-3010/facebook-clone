@@ -24,12 +24,15 @@ const Register = () => {
          <div className='date-birth'>
           <div>
             <p>15</p>
+            <i class="fa-solid fa-angle-up"></i>
           </div>
           <div>
             <p>Aug</p>
+            <i class="fa-solid fa-angle-up"></i>
           </div>
           <div>
             <p>2023</p>
+            <i class="fa-solid fa-angle-up"></i>
           </div>
          </div>
 
@@ -47,7 +50,7 @@ const Register = () => {
          </div>
          <p></p>
          <input className='submit-register' type='Sumbit' value='Sigh in'/>
-         <p style={{color: "blue" , marginLeft: "10px"}}>All Ready Have an Acount ?</p>
+         <p style={{color: "red" , marginLeft: "10px"}}>All Ready Have an Acount ?</p>
 
 
          

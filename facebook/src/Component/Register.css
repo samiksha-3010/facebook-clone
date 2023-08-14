@@ -49,6 +49,17 @@
     height: 50px;
     border: 1px solid black;
     border-radius: 10px;
+    display: flex;
+    
+}
+.date-birth>div>p{
+    margin-top: 14px;
+    margin-left: 10px;
+
+}
+.date-birth>div>i{
+    margin-left: 50%;
+    margin-top: 14px;
 }
 .submit-register{
     width: 70%;

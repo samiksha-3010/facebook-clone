@@ -26,13 +26,16 @@
 .main-div-left-section{
     width: 90%;
     height: 60px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     /* justify-content: space-around; */
     margin: auto;
 }
 .main-div-left-section:hover{
     background-color:#f0f2f5 ;
+}
+.main-div-left-section>image>i{
+    color: blue;
 }
 .image{
     width: 10%;
