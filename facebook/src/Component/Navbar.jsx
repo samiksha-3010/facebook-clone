@@ -1,7 +1,9 @@
 import React from 'react'
 import "./Navbar.css"
+import { Navigate, useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
+    const router = useNavigate();
   return (
 
     // **************HTML PART ************
@@ -29,7 +31,7 @@ const Navbar = () => {
         </div>
         <div className='icon-third'>
             <div className='icon-last'>
-            <i class="fa-solid fa-plus fa-xl"></i>
+            <i  onClick={() => router('/create-post')} class="fa-solid fa-plus fa-xl"></i>
             </div>
             <div className='icon-last'>
             <i class="fa-regular fa-bell  fa-xl"></i>
