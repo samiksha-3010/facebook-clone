@@ -49,7 +49,16 @@ const UpdateProfile = () => {
      
 
       </div>
-      <div className='border-style'></div>
+      <div className='border-style'>
+        <div className='btn-style'><b>Post</b></div>
+        <div className='btn-style'><p>About</p></div>
+        <div className='btn-style'><p>Photo</p></div>
+        <div className='btn-style'><p>Video</p></div>
+        <div className='btn-style'><p>More</p></div>
+        <div className='btn-change'><b>...</b></div>
+        <div></div>
+      </div>
+    
         
 
     </div>

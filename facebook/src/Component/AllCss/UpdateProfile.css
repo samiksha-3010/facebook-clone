@@ -7,7 +7,6 @@
     width: 100%;
     border: 1px solid black;
     background-color: white;
-    margin-top: 100px;
     height: 1000px;
 }
 .image-first{
@@ -22,13 +21,13 @@
 .image-first{
     width: 60%;
     height: 500px; 
-    border: 1px solid black; 
+    /* border: 1px solid black;  */
 }
 .create{
     width: 20%;
     height: 50px;
     background-color: #696a6b;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     border-radius: 5px;
     margin-left: 75%;
@@ -67,7 +66,7 @@
 .cercule-section{
     width: 60%;
     height: 250px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
     margin: auto;
     display: flex;
@@ -88,12 +87,12 @@
 .cercule>img{
     width: 100%;
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 155px;    
 }
 .profile-part{
     width: 30%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 150px;
     margin-left: 180px;
 
@@ -108,7 +107,7 @@
 }
 .edit-profile{
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100px;
     margin-top: 150px;
     display: flex;
@@ -116,7 +115,7 @@
 }
 .add-story{
     width: 40%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 45px;
     display: flex;
     justify-content: space-around;
@@ -128,7 +127,7 @@
 }
 .profile{
     width: 30%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 45px;
     color: white;
     border-radius: 10px;
@@ -141,19 +140,49 @@
 }
 .icon-first{
     width: 10%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 45px;
     background-color: #d3d4d7;
     margin-top: 40px;
     border-radius: 5px;
+    margin-left: 5px;
 }
 .icon-first>i{
     padding-left: 7px;
     padding-top: 7px;
 }
 .border-style{
-    width: 60%;
-    height: 100px;
-    border: 1px solid black;
-    margin: auto;
+    width: 40%;
+    height: 80px;
+    /* border: 1px solid black; */
+    /* margin: auto; */
+    display: flex;
+justify-content: space-around;
+margin-left: 280px;
+}
+.btn-style{
+/* border: 1px solid black; */
+height: 50px;
+width: 10%;
+margin-top: 5px;
+border-radius: 5px;
+text-align: center;
+background-color: white;
+
+}
+.btn-style:hover{
+    background-color: #d3d4d7 ;
+}
+.btn-change{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 10%;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 80px;
+    background-color: #d3d4d7   
+}
+.btn-change:hover{
+    background-color: #d3d4d7 ;
 }
