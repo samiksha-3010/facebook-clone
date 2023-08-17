@@ -1,7 +1,9 @@
 import React from 'react'
 import "./AllCss/UpdateProfile.css"
+import { useNavigate } from 'react-router-dom'
 
 const UpdateProfile = () => {
+  const router = useNavigate();
   return (
     <div className='profile-style'>
       <div className='image-first'>
@@ -40,7 +42,7 @@ const UpdateProfile = () => {
           <div>
           <i class="fa-solid fa-pen"></i>
           </div>
-          <div><p>Edit Profile</p></div>
+          <div  onClick={()=> router('./editprofile')}><p>Edit Profile</p></div>
         </div>
         <div className='icon-first'>
         <i class="fa-solid fa-chevron-down"></i>

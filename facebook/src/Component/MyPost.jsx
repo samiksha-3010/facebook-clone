@@ -23,7 +23,7 @@ export const MyPost = () => {
       </div>
       <div className='update-profile'>
       <div className='image'>
-        <img src='https://tse1.mm.bing.net/th?id=OIP.Rp9RK3Wm49_KJ9P_DnhLBAHaFI&pid=Api&rs=1&c=1&qlt=95&w=180&h=124'/>
+        <img src='https://i.pinimg.com/originals/84/80/6b/84806b1284de3f0ef1d44e9c33ca0b17.jpg'/>
       
       </div>
   <div className='profile-picture'>
@@ -33,24 +33,30 @@ export const MyPost = () => {
   {/* <div className='profile-name'></div> */}
   </div>
   </div>
- 
-
-
-
-
-
-
-  
   <div className='right-section-post'>
-    <div className='navbar'></div>
+    <div className='navbar'>
+      <div className='icon-style'>
+      <i class="fa-solid fa-plus fa-2xl"></i>
+      </div>
+      <div className='icon-style'>
+      <i class="fa-solid fa-bell fa-2xl"></i>
+      </div>
+      <div className='icon-style' >
+        <img src='https://i.pinimg.com/originals/84/80/6b/84806b1284de3f0ef1d44e9c33ca0b17.jpg'/>
+      </div>
+
+
+    </div>
     <div className='story-image'>
       <div className='photo-story'>
-        <div className='photo-first'></div>
+        <div className='photo-first'>
+        <i style={{paddingTop:"10px"}} class="fa-solid fa-image fa-xl"></i>
+        </div>
         <p style={{color:"white" , marginLeft:"60px"}}>Create a Photo</p>
 
       </div>
       <div className='photo-stor'>
-      <div className='photo-first'></div>
+      <div className='photo-first'><b >Pp</b></div>
         <p style={{color:"white" , marginLeft:"60px"}}>Create a Story</p>
       </div>
     </div>

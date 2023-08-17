@@ -1,0 +1,136 @@
+*{
+  margin: 0%; 
+  padding: 0%; 
+  box-sizing: border-box;
+}
+.edit-profile-first{
+    width: 40%;
+    /* height:1000px ; */
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.edit-profile-navbar{
+   width: 100%; 
+   height: 70px;
+  border-bottom: 1px solid gray;
+  display: flex;
+
+   
+}
+.edit-profile-navbar>h2{
+    /* padding-left: 30%; */
+}
+/* .edit-section{
+    border: 1px solid black;
+ 
+
+} */
+.plus-edit{
+    /* border: 1px solid black; */
+    width: 7%;
+    height: 45px;
+    margin-left: 65%;
+    margin-top: 10px;
+    border-radius: 40px;
+    color:gray ;
+
+}
+.plus-edit>i{
+padding-top:5px;
+}
+.plus-edit:hover{
+    background-color:#f0f2f5 ;
+}
+.edit-pro-second{
+    width: 100%; 
+    height: 70px;
+   border-bottom: 1px solid gray;
+   display: flex; 
+   justify-content: space-between; 
+}
+.edit-pro-second>div{
+    width: 30%;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.edit-pro-second>button{
+    width: 15%;
+    height: 40px;
+    color:blue;
+    margin-top: 10px;
+    border: none;
+}
+.edit-pro-second>button:hover{
+    background-color:#f0f2f5 ;
+}
+.middle-profile{
+    width: 100%;
+    height: 200px;
+    border: 1px solid gray;
+}
+.middle-profile-photo{
+    width: 25%;
+    height: 150px;
+    border: 1px solid gray;
+    margin: auto;
+    border-radius: 120px;
+    margin-top: 10px;
+}
+.middle-profile-photo>img{
+    width: 100%;
+    height: 150px; 
+    border-radius: 120px;
+}
+.middle-profile-photos{
+    width: 80%;
+    height: 150px;
+    border: 1px solid gray;
+    margin: auto;
+    background-color: #f0f2f5;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.middle-profile-photos>img{
+    width: 100%;
+    height: 150px; 
+}
+.middle-profile-photos>button{
+    color: blue;
+}
+
+
+
+/* 
+ .edit-pro-second-div{
+    width: 100%; 
+    height: 70px;
+   border-bottom: 1px solid gray;
+   display: flex; 
+   justify-content: space-between; 
+   margin-top: 20px;
+}
+.edit-pro-second>div{
+    width: 30%;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 10px;
+}  */
+
+.current-town{
+    width:30% ;
+    height: 40px;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: space-between; 
+    color: gray;
+}
+
+
+

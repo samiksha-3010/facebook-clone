@@ -1,7 +1,10 @@
 import React from 'react'
 import "./Home.css"
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+
+    const router = useNavigate();
   return (
 
     // ************HTML******************
@@ -37,7 +40,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-regular fa-bookmark fa-xl"></i>
+                     <i style={{color: "blue"}}   class="fa-regular fa-bookmark fa-xl"></i>
                      </div>
                      <div className='text'>
                      <p>Saved</p>
@@ -46,7 +49,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-solid fa-tv fa-xl"></i>
+                     <i style={{color: "blue"}}  class="fa-solid fa-tv fa-xl"></i>
                      </div>
                      <div className='text'>
                      <p>Video</p>
@@ -55,7 +58,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-solid fa-shop fa-xl"></i>
+                     <i style={{color: "blue"}}  class="fa-solid fa-shop fa-xl"></i>
                      </div>
                      <div className='text'>
                      <p>MarketPlace</p>
@@ -64,7 +67,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-regular fa-calendar-check fa-xl"></i>
+                     <i style={{color: "blue"}}  class="fa-regular fa-calendar-check fa-xl"></i>
                      </div>
                      <div className='text'>
                      <p>Event</p>
@@ -73,7 +76,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-regular fa-message fa-xl"></i>
+                     <i style={{color: "blue"}}  class="fa-regular fa-message fa-xl"></i>
                      </div>
                      <div className='text'>
                      <p>Add Manger</p>
@@ -82,7 +85,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-regular fa-user fa-2xl"></i>
+                     <i style={{color: "blue"}}  class="fa-regular fa-user fa-2xl"></i>
                      </div>
                      <div className='text'>
                      <p>Play Games</p>
@@ -91,7 +94,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-brands fa-facebook-messenger fa-xl"></i>
+                     <i style={{color: "blue"}}  class="fa-brands fa-facebook-messenger fa-xl"></i>
                      </div>
                      <div className='text'>
 
@@ -101,7 +104,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i  class="fa-solid fa-gamepad fa-xl"></i>
+                     <i  style={{color: "blue"}}  class="fa-solid fa-gamepad fa-xl"></i>
                      </div>
                      <div className='text'>
                      <p>Play Games</p>
@@ -110,7 +113,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-brands fa-facebook fa-xl"></i>
+                     <i style={{color: "blue"}}  class="fa-brands fa-facebook fa-xl"></i>
                      </div>
                      <div className='text'>
                      <p>FaceBook Pay</p>
@@ -119,7 +122,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-regular fa-file fa-xl"></i>
+                     <i style={{color: "blue"}}  class="fa-regular fa-file fa-xl"></i>
                      </div>
                      <div className='text'>
                      <p>Pages</p>
@@ -128,7 +131,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-solid fa-square-person-confined fa-xl"></i>
+                     <i style={{color: "blue"}}  class="fa-solid fa-square-person-confined fa-xl"></i>
                      </div>
                      <div className='text'>
                      <p>Recent Activity</p>
@@ -137,7 +140,7 @@ const Home = () => {
 
                 <div className='main-div-left-section'>
                      <div className='image'>
-                     <i class="fa-solid fa-angle-up fa-xl"></i>
+                     <i style={{color: "blue"}}  class="fa-solid fa-angle-up fa-xl"></i>
                      </div>
                      <div className='text'>
                      <p>See More</p>
@@ -169,7 +172,7 @@ const Home = () => {
     </div>
 
     <div className='search-icon'>
-    <input type='search' placeholder='What On your mind?' />
+    <input  onClick={() => router("/create-my-post")} type='search' placeholder='What On your mind?' />
     </div>
 </div>
 <div className='live-video-div'>

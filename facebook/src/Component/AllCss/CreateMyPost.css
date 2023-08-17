@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.create-my-post{
+    border: 1px solid black;
+    width: 28%;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 400%;
+    margin: auto;
+    /* display: flex; */
+}
+.navbar-post{
+    width: 100%;
+    height: 60px;
+   border-bottom: 1px solid gray;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.plius-icon{
+   width: 10%; 
+   height: 40px;
+   border-radius: 40px;
+   border: 1px solid black;
+   /* background-color: #f6f6f6; */
+  margin-left: 240px;
+   align-items: center;
+}
+.plius-icon>i{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.plius-icon:hover{
+    background-color:#f6f6f6;
+}
+.profile-share{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid red;   */
+    align-items: center; 
+    display: flex;
+}
+.plius-icon-second{
+    width: 10%; 
+   height: 45px;
+   border-radius: 45px;
+   /* border: 1px solid black;  */
+   margin-top: 5px; 
+   margin-left: 20px;
+}
+.plius-icon-second>img{
+    width: 100%; 
+    height: 45px;
+    border-radius: 45px;  
+}
+.text-name{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 50px;
+    margin-left: 10px;
+}
+.text-name-box{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 25px; 
+    display: flex; 
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.placeholder{
+    width: 100%;
+    background-color: white;
+    border: 1px solid gray;
+    height: 80px;
+    /* text-align: center; */
+}
+.placeholder>input{
+    width: 70%;
+    height: 70px;
+    font-size: large;
+    outline: none;
+    border: none;
+}
+.smile-post{
+    width: 90%;
+    background-color: white;
+    /* border: 1px solid gray; */
+    height: 80px ;
+    display: flex;
+    justify-content: space-between;
+}
+.smile-post-photo{
+    width: 9%;
+    height: 35px;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.smile-post-photo>img{
+    width: 100%;
+    height: 35px;
+    /* border: 1px solid black;    */
+}
+.smile-emoji{
+    width: 9%;
+    height: 35px;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    margin-top: 19px;
+    margin-right: 15px;
+}
+.post-section{
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid gray; */
+    height: 80px ;
+    display: flex;
+    justify-content: space-between;   
+}
+.your-post{
+    width: 35%;
+    height: 50px;
+    /* border: 1px solid black; */
+    align-items: center;
+    padding-top: 10px;
+}
+.your-style{
+    width: 60%;
+    height: 50px;
+    /* border: 1px solid black;  */
+    display: flex;
+    justify-content: space-around; 
+}
+
+.button-style{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    /* border: 1px solid gray; */
+    background-color:#e4e6eb ;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+
+}
+.stle-emoji{
+    width: 13%;
+    height: 35px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    /* margin-left: 15px; */
+}
+.stle-emoji>img{
+    width: 100%;
+    height: 35px  
+}
+.style-dott{
+    width: 12%;
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    margin-top: 10px;
+    align-items: center;
+    /* margin-right: 15px; */
+}
+.style-dott.b{
+    padding-left: 5px;
+}
+.style-dott:hover{
+    background-color:#f6f6f6;
+}

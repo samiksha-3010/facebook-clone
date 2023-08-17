@@ -8,6 +8,8 @@ import Navbar from './Component/Navbar';
 import UpdateProfile from './Component/UpdateProfile';
 import CreatePost from './Component/CreatePost';
 import { MyPost } from './Component/MyPost';
+import CreateMyPost from './Component/CreateMyPost';
+import EditProfile from './Component/EditProfile';
 
 
 
@@ -23,6 +25,8 @@ function App() {
         <Route exact path='/create-post'element={<CreatePost/>}/>
         <Route exact path='/updateprofile'element={<UpdateProfile/>}/>
         <Route exact path='/my-post'element={<MyPost/>}/>
+        <Route exact path='/create-my-post'element={<CreateMyPost/>}/>
+        <Route exact path='/editprofile'element={<EditProfile/>}/>
         
       </Routes>
     

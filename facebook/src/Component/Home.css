@@ -12,7 +12,7 @@
 }
 .homepage-first{
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -20,8 +20,8 @@
 }
 .left-section{
     width: 30%;
-    border: 1px solid black;
-    overflow: scroll;
+     border: 1px solid black; 
+    overflow: scroll; 
 }
 .main-div-left-section{
     width: 90%;
@@ -39,7 +39,7 @@
 }
 .image{
     width: 10%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 40px;
     margin-top: 5px;
     border-radius: 40px;
@@ -51,7 +51,7 @@
 
 .text{
     width: 40%;
-    /* border: 1px solid black; */
+    /* border: 1px solid red; */
     height: 30px;
     margin-top: 10px;
     margin-left: 10px;
@@ -64,7 +64,7 @@
 }
 .div-middle{
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 50px;
     margin-top: 10px;
     margin-left: 10px;
