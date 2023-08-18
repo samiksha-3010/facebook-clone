@@ -10,10 +10,10 @@ const Navbar = () => {
     <div className='first-navbar'>
         <div className='search-first'>
             <div className='facbook-icon'>
-                <img style={{width: "100%"}} src='https://tse1.mm.bing.net/th?id=OIP.Ua5AXhtGRgPuisZVmetclQHaFL&pid=Api&rs=1&c=1&qlt=95&w=160&h=111'/>
+                <img  onClick={() => router("/")}style={{width: "100%"}} src='https://tse1.mm.bing.net/th?id=OIP.Ua5AXhtGRgPuisZVmetclQHaFL&pid=Api&rs=1&c=1&qlt=95&w=160&h=111'/>
             </div>
          
-            <div className='serch-icon'>
+            <div  className='serch-icon'>
             <i class="fa-solid fa-magnifying-glass fa -2xl"></i>
                <input type="text" />
             </div>

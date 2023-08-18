@@ -3,3 +3,106 @@
     margin: 0%;
     padding: 0%;
 }
+.FriendRequest{
+    margin-top: 100px;
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+}
+.FriendRequest-first{
+    width: 90%;
+    height: 800px;
+    border: 1px solid black;
+margin: auto;
+display: flex;
+justify-content: space-around;
+}
+.FriendRequest-left{
+    width: 25%;
+    /* border: 1px solid black; */
+    height: 800px;
+}
+.earch-Results{
+width: 100%;
+height: 60px;
+border-bottom: 1px solid black;
+}
+.earch-Results-first{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.earch-Results-first:hover{
+    background-color: #f0f2f5;
+}
+.all-post{
+    width: 12%;
+    height: 40px;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.aii-div{
+    width: 50%;
+    height: 40px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.all-post>i{
+    /* padding-top: 10px; */
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.FriendRequest-right{
+    width: 55%;
+    /* border: 1px solid black; */
+    height: 800px;
+    border-radius: 10px;
+    background-color: #f0f2f5 ;
+}
+.peoplle{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    height: 60px;
+}
+
+.fallow-btn-friend{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 60px; 
+    display: flex; 
+}
+.friend-image{
+width: 50px;
+height: 50px;
+/* border: 1px solid black; */
+border-radius: 50px;
+margin-left: 20px;
+}
+.friend-image>img{
+    width: 50px;
+    height: 50px; 
+    border-radius: 50px; 
+}
+.friend-image-two{
+width: 40%;
+/* border: 1px solid black; */
+height: 40px;
+margin-top: 8px;
+margin-left: 10px;
+}
+.fallow-more{
+    width: 20%;
+    /* border: 1px solid black; */
+    height: 40px;
+    margin-top: 8px; 
+    border-radius: 10px; 
+    margin-left: 23%;
+    color: blue;
+    background-color: lightblue;
+}
