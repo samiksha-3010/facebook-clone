@@ -10,6 +10,7 @@ import CreatePost from './Component/CreatePost';
 import { MyPost } from './Component/MyPost';
 import CreateMyPost from './Component/CreateMyPost';
 import EditProfile from './Component/EditProfile';
+import MyAcount from './Component/MyAcount';
 
 
 
@@ -27,6 +28,8 @@ function App() {
         <Route exact path='/my-post'element={<MyPost/>}/>
         <Route exact path='/create-my-post'element={<CreateMyPost/>}/>
         <Route exact path='/editprofile'element={<EditProfile/>}/>
+        <Route exact path='/my-acount'element={<MyAcount/>}/>
+
         
       </Routes>
     

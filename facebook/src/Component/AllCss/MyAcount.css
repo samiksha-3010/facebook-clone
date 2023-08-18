@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.my-acount{
+    width: 23%;
+    height: 500px;
+    border: 1px solid black;
+   margin-top: 200px;
+   background-color: white;
+   margin: auto;
+   border-radius: 10px;
+
+}

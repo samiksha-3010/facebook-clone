@@ -23,7 +23,7 @@ const UpdateProfile = () => {
       </div>
       <div className='cercule-section'>
         <div className='cercule'>
-          <img src='https://i0.wp.com/vssmn.org/wp-content/uploads/2018/12/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png?fit=860%2C681&ssl=1'/>
+          <img src='https://i.pinimg.com/originals/84/80/6b/84806b1284de3f0ef1d44e9c33ca0b17.jpg'/>
          
         </div>
        <div className='profile-part'>

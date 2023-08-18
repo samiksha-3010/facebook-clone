@@ -100,10 +100,11 @@ const EditProfile = () => {
    <div className='middle-profile'>
     <div className='middle-profile-photos'>
         <img src='https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/Ql43NN0QN4C.png'/>
+        <p>Feature your favourite photos and stories here for all of your friends to see.</p>
 
     </div>
     </div>
-    <button  style={{width:"90%", height:"40px", borderRadius:"10px",margin:"auto"}}>Edit</button>
+    <button  style={{width:"90%", height:"40px", borderRadius:"10px",margin:"auto", color:"blue" }}>Edit Your About Info</button>
     </div>
   )
 }
