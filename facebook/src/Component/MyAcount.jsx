@@ -3,7 +3,7 @@ import "./AllCss/MyAcount.css"
 
 const MyAcount = () => {
   return (
-    <div className='my-acount'>ksldjlahdfsalfjsl;
+    <div className='my-acount'>ksldjlahdfsalfjsl;jhdkjdalksl;k;
        </div>
   )
 }

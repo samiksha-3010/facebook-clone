@@ -20,8 +20,8 @@ const Navbar = () => {
         </div>
         <div className='logo-second'>
             
-            <div className='house-logo'> <i class="fa-solid fa-house fa-xl"></i> </div>
-            <div  className='user-icon'><i  class="fa-regular fa-user fa-xl"></i>
+            <div onClick={() => router("/")} className='house-logo'> <i class="fa-solid fa-house fa-xl"></i> </div>
+            <div  onClick={() => router("/search")} className='user-icon'><i  class="fa-regular fa-user fa-xl"></i>
 </div>
             <div  className='user-icon'> <i class="fa-solid fa-tv  fa-xl"></i></div>
             <div  className='user-icon'><i class="fa-solid fa-shop  fa-xl"></i></div>

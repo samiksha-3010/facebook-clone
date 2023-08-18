@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.search-first-search{
+    width: 100%;
+    border:1px solid black;
+    background-color: white;
+    margin: 100px;
+    /* height: 1000px; */
+}
+.search-first-div-div{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    height: 800px;
+    justify-content: space-around;
+
+
+}
+ .search-first-left{
+    width: 25%;
+    border: 1px solid black; 
+    /* display: flex; */
+
+}
+.seeting-div{
+    width: 90%;
+    /* border: 1px solid black;   */
+    margin-top: 10px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.find-friend{
+    width: 90%;
+    /* border: 1px solid black;   */
+    /* padding-top: 30px; */
+    height: 50px;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    
+}
+.find-icon{
+  width: 10%;
+  height: 35px;
+  /* border: 1px solid black; */
+  color: white;
+  background-color: blue;
+  border-radius: 40px;
+  margin-top: 5px;
+}
+.find-icon:hover{
+    background-color:#f0f2f5 ;
+}
+.find-icon>i{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.home-search{
+    width: 30%;
+  height: 40px;
+  /* border: 1px solid black; */
+  margin-left: 10px;  
+}
+
+.find-icon-second{
+    width: 10%;
+    height: 35px;
+    /* border: 1px solid black; */
+    /* color: white; */
+    /* background-color: blue; */
+    border-radius: 40px;
+    margin-top: 5px;
+  }
+  .find-icon:hover{
+      background-color:#f0f2f5 ;
+  }
+  .find-icon>i{
+      padding-top: 10px;
+      padding-left: 5px;
+  }
+  .home-search-second{
+      width: 50%;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin-left: 10px; 
+    /* font-size: 20px;  */
+  }
+.friend-seggestion{
+    width: 90%;
+    /* border: 1px solid black;   */
+    /* padding-top: 30px; */
+    height: 50px;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;  
+}
+.friend-seggestion:hover{
+    background-color: #f0f2f5;
+}
+.arrow-icon{
+    width: 50%;
+    height: 30px;
+    /* border: 1px solid black  */
+}
+.arrow-icon>i{
+    padding-left: 100px;
+    color: gray;
+}
+
+.search-second-right{
+    width: 70%;
+    border: 1px solid black; 
+    background-color: #f0f2f5 ; 
+} 
+.friend-req{
+    width: 98%;
+    height: 70px;
+    margin: auto;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.friend-req>button{
+    color: blue;
+    width: 10%;
+    height: 40px;
+    border: none;
+}
+.friend-req>button:hover{
+    background-color: #f0f2f5 ; 
+}
+.friend-request{
+    width: 90%;
+    height: 370px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex; 
+    justify-content: space-around;
+}
+.friend-request>div{
+    width: 19%;
+    /* border: 1px solid black; */
+    height: 380px;
+    border-radius: 10px;
+}
+.friend-request>div>img{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.button-confirm{
+    background-color: blue;
+    color: white;
+    width: 85%;
+ margin-left: 15px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.button-delite{
+    background-color: blue;
+    color: white;
+    width: 85%;
+ margin-left: 15px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px; 
+}

@@ -11,6 +11,8 @@ import { MyPost } from './Component/MyPost';
 import CreateMyPost from './Component/CreateMyPost';
 import EditProfile from './Component/EditProfile';
 import MyAcount from './Component/MyAcount';
+import Search from './Component/Search';
+import { FriendRequest } from './Component/FriendRequest';
 
 
 
@@ -29,8 +31,8 @@ function App() {
         <Route exact path='/create-my-post'element={<CreateMyPost/>}/>
         <Route exact path='/editprofile'element={<EditProfile/>}/>
         <Route exact path='/my-acount'element={<MyAcount/>}/>
-
-        
+        <Route exact path='/search'element={<Search/>}/>
+        <Route exact path='/friend-request'element={<FriendRequest/>}/>
       </Routes>
     
     
